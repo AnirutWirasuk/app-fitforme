@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">FIT FOR ME</string>
+    <string name="app_name_splash">FIT FOR ME</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_text1">Material Design UI\nTemplate App</string>
+    <string name="navigation_text2">Ready to drop in your app</string>
+    <string name="navigation_buy_now">BUY NOW</string>
+    <string name="navigation_documentation">DOCUMENTATION</string>
+
+    <string name="check_box_title">CHECK BOX</string>
+    <string name="radio_box_title">RADIO</string>
+
+    <string name="progress_bar_title">PROGRESS BAR</string>
+    <string name="seek_bar_title">SEEK BAR</string>
+    <string name="drop_down_title">DROP DOWN</string>
+    <string name="drop_down_color_title">Drop Down</string>
+    <string name="drop_down_text">Click on this icon in app bar (top right corner)</string>
+
+    <string name="validation_login_title">LOGIN</string>
+    <string name="validation_login_text">Hello there, welcome back.</string>
+    <string name="validation_login_email">อีเมล์</string>
+    <string name="validation_login_password">รหัสผ่าน</string>
+    <string name="validation_login_button_text">เข้าสู่ระบบ</string>
+    <string name="validation_login_forgot_text">FORGOT PASSWORD?\u00A0</string>
+    <string name="validation_login_sign_text">DON\'T HAVE AN ACCOUNT?\u00A0</string>
+    <string name="validation_login_forgot_New">GET NEW!</string>
+    <string name="validation_login_sign_up">สมัครสมาชิก</string>
+
+    <string name="validation_forgot_title">FORGOT PASSWORD</string>
+    <string name="validation_forgot_text">Forgot Password? Don\'t worry</string>
+
+    <string name="validation_forgot_email">Email</string>
+    <string name="red">IMG POST</string>
+    <string name="blue">RATE</string>
+    <string name="green">FOLLOW</string>
+    <string name="red1">PROFILE</string>
+    <string name="blue1">OTHERS</string>
+    <string name="green1">ANOTHER</string>
+
+    <string name="cards_rate_title">RATE</string>
+    <string name="cards_follow_title">FOLLOW</string>
+    <string name="cards_profile_title">PROFILE</string>
+
+    <string name="search_title">SEARCH</string>
+
+    <string name="lists_drag_title">DRAGG \u0026 DROP</string>
+    <string name="lists_swipe_title">SWIPE TO DISMISS</string>
+    <string name="lists_drag_drop_swipe_title">EXP+DRAG+SWIPE</string>
+    <string name="lists_item_details_title">ITEM DETAILS</string>
+
+
+    <string name="gallery_categories_title">CATEGORIES</string>
+
+
+    <string name="validation_forgot_button_text">RESET PASSWORD</string>
+    <string name="validation_forgot_forgot_text">HAVE AN ACCOUNT?\u00A0</string>
+    <string name="validation_forgot_sign_text">DON\'T HAVE AN ACCOUNT?\u00A0</string>
+    <string name="validation_forgot_forgot_New">LOG IN!</string>
+    <string name="validation_forgot_sign_up">SIGN UP!</string>
+
+    <string name="tabs_lineindicator_title">LINE INDICATOR</string>
+    <string name="tabs_roundindicator_title">ROUND INDICATOR</string>
+
+    <string name="validation_register_title">เข้าสู่ระบบ</string>
+    <string name="validation_register_text">Welcome, sign up now.</string>
+    <string name="validation_register_country">Country</string>
+    <string name="validation_register_zip">Zip Code</string>
+    <string name="validation_register_username">Username</string>
+    <string name="validation_register_name">Username</string>
+    <string name="validation_register_button_text">เข้าสู่ระบบ</string>
+    <string name="validation_register_forgot_text">ALREADY HAVE AN ACCOUNT?\u00A0</string>
+
+    <string name="validation_register_forgot_New">เข้าสู่ระบบ!</string>
+
+
+    <string name="drop_down_menu_1">\u00A0\u00A0\u00A0LOCATIONS</string>
+    <string name="drop_down_menu_2">\u00A0\u00A0\u00A0SETTINGS</string>
+    <string name="drop_down_menu_3">\u00A0\u00A0\u00A0FRIENDS</string>
+
+    <string name="dialog_info_title">DIALOG INFO</string>
+    <string name="dialog_info_color_title">This is info dialog</string>
+    <string name="dialog_info_text">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</string>
+    <string name="dialog_info_ok">OK</string>
+    <string name="dialog_info_cancel">CANCEL</string>
+
+    <string name="dialog_warning_title">DIALOG WARNING</string>
+    <string name="dialog_warning_color_title">Warning!</string>
+    <string name="dialog_warning_text">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</string>
+    <string name="dialog_warning_ok">OK</string>
+
+    <string name="dialog_subscribe_title">DIALOG SUBSCRIBE</string>
+    <string name="dialog_subscribe_color_title">Subscribe for more</string>
+    <string name="dialog_subscribe_hint">Email</string>
+    <string name="dialog_subscribe_submit">SUBMIT</string>
+    <string name="dialog_subscribe_error">กรุณาระบบอีเมล์และรูปแบบอีเมล์ให้ถูกต้อง</string>
+
+    <string name="dialog_subscribe_pass">กรุณาระบุรหัสผ่าน</string>
+
+    <string name="activity_title_demo_d_basic">Draggable</string>
+    <string name="activity_title_demo_us">Swipeable</string>
+    <string name="activity_title_demo_e_basic">Expandable</string>
+    <string name="activity_title_demo_eds">Expandable + Draggable + Swipeable</string>
+
+    <string name="snack_bar_text_group_item_removed">1 group item removed</string>
+    <string name="snack_bar_text_child_item_removed">1 child item removed</string>
+    <string name="snack_bar_text_button_clicked">Button clicked! (position = %1$d)</string>
+    <string name="snack_bar_action_undo">UNDO</string>
+
+    <string name="dialog_message_item_pinned">Item pinned! (position = %1$d)</string>
+    <string name="dialog_message_group_item_pinned">Group item pinned! (group = %1$d)</string>
+    <string name="dialog_message_child_item_pinned">Child item pinned! (group = %1$d, child = %2$d)</string>
+
+    <string name="welcome">Welcome!</string>
+
+    <string name="wizzard_intro_1_title">"Superb Material \n Design UI"</string>
+    <string name="wizzard_intro_1_text">"Finished components and \n layouts - ready to use!"</string>
+    <string name="wizzard_intro_2_title">"For Developers"</string>
+    <string name="wizzard_intro_2_text">"Save hours of developing.Tons of\n functional components."</string>
+    <string name="wizzard_intro_3_title">"For Designers"</string>
+    <string name="wizzard_intro_3_text">"Endless possibilities. Combine\n layouts as you wish."</string>
+
+    <string name="parallax_header_title">PARALLAX HEADER</string>
+
+    <string name="sub_1">user</string>
+    <string name="sub_2">Basic</string>
+    <string name="generatedstr">1111111111111</string>
+    <string name="mailchimp_key">111111111111</string>
+    <string name="mailchimp_list_id">111111</string>
+    <string name="server_num">111</string>
+
+    <string name="photos">photos</string>
+    <string name="required">required field</string>
+
+    <string name="cards_photos">Photos</string>
+    <string name="transparent_toolbar_follow">FOLLOW</string>
+
+    <string name="list_item_details_add">ADD AS FRIEND</string>
+    <string name="list_item_details_photos">Photos</string>
+    <string name="list_item_details_followers">Followers</string>
+    <string name="list_item_details_following">Following</string>
+
+    <string name="check_box_1">Brian Tucker</string>
+    <string name="check_box_2">Dennis Spencer</string>
+    <string name="check_box_3">Daniel Grant</string>
+    <string name="check_box_4">Heather Jacobs</string>
+    <string name="check_box_5">Brian Tucker</string>
+    <string name="check_box_6">Dennis Spencer</string>
+    <string name="check_box_7">Daniel Grant</string>
+    <string name="check_box_8">Heather Jacobs</string>
+    <string name="check_box_9">Brian</string>
+    <string name="check_box_10">Dennis</string>
+    <string name="check_box_11">Daniel</string>
+    <string name="check_box_12">Heather</string>
+    <string name="check_box_13">Gerald</string>
+    <string name="check_box_14">Walters</string>
+    <string name="check_box_15">Heather</string>
+    <string name="check_box_16">Ellis</string>
+
+    <string name="radio_box_1">Brian Tucker</string>
+    <string name="radio_box_2">Dennis Spencer</string>
+    <string name="radio_box_3">Daniel Grant</string>
+    <string name="radio_box_4">Heather Jacobs</string>
+    <string name="radio_box_5">Brian Tucker</string>
+    <string name="radio_box_6">Dennis Spencer</string>
+    <string name="radio_box_7">Daniel Grant</string>
+    <string name="radio_box_8">Heather Jacobs</string>
+    <string name="radio_box_9">Brian</string>
+    <string name="radio_box_10">Dennis</string>
+    <string name="radio_box_11">Daniel</string>
+    <string name="radio_box_12">Heather</string>
+    <string name="radio_box_13">Gerald</string>
+    <string name="radio_box_14">Walters</string>
+    <string name="radio_box_15">Heather</string>
+    <string name="radio_box_16">Ellis</string>
+
+    <string name="search_type_here">TYPE HERE </string>
+
+    <string name="cards_follow_follow">FOLLOW</string>
+    <string name="cards_rate_name">Carolyn Guerrero</string>
+    <string name="cards_rate_about">Extreme coffee lover. Twitter mave. Internet Practiotioner. Beeraholic.</string>
+    <string name="cards_rate_rating">9.6</string>
+    <string name="cards_profile_name">Carolyn Guerrero</string>
+    <string name="cards_profile_about">Extreme coffee lover. Twitter mave. Internet Practiotioner. Beeraholic.</string>
+    <string name="cards_profile_number_1">953</string>
+    <string name="cards_profile_number_2">58k</string>
+    <string name="cards_profile_number_3">326</string>
+
+
+
+
+</resources>

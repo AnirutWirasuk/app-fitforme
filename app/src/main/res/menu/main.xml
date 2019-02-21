@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kesic.test.MainActivity">
+
+    <group
+        android:id="@+id/main_menu_group">
+
+    <item
+         app:itemBackground="@color/colorAccent"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_location"
+        app:showAsAction="never"
+
+        android:title="@string/drop_down_menu_1">
+
+    </item>
+    <!--app:itemBackground="@color/colorAccent"-->
+    <item
+        android:id="@+id/navigation_item_1"
+        android:minWidth="150dp"
+
+        android:icon="@drawable/ic_settings"
+
+        android:title="@string/drop_down_menu_2" />
+
+
+    <item
+        android:id="@+id/navigation_item_2"
+        android:icon="@drawable/ic_friends"
+
+        android:title="@string/drop_down_menu_3" />
+    </group>
+
+
+
+</menu>

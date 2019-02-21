@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="301dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:minHeight="301dp"
+    android:minWidth="320dp">
+    <TextView
+        android:id="@+id/dialog_subscribe_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/dialog_subscribe_title"
+        android:textColor="@color/colorTextGray2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dialog_subscribe_color_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/dialog_subscribe_color_title"
+        android:textColor="@color/colorTextDark"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_subscribe_title" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_subscribe_color_title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:id="@+id/dialog_subscribe_email">
+
+        <EditText
+            android:id="@+id/dialog_subscribe_enteredEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:hint="@string/dialog_subscribe_hint"
+            android:textColor="@color/colorTextGrey" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/dialog_subscribe_submit"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/ripple_with_backgroundcolor_gradient"
+        android:gravity="center"
+        android:text="@string/dialog_subscribe_submit"
+        android:textColor="@color/backgroundColorWhite"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="205dp" />
+
+    <TextView
+        android:id="@+id/dialog_subscribe_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/selector_dialog_warning"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/dialog_info_cancel"
+        android:textColor="@color/colorTextGrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_subscribe_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.ffme.fitforme.kbv.KenBurnsView
+        android:id="@+id/ken_burns_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- We use dps for font size: we don't want our logo
+    to become larger if user has set larger text in global
+    settings. -->
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="113dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.0"
+        android:background="@drawable/logo_ffme"
+        android:textColor="@android:color/white"
+        android:textSize="120dp"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:alpha="0.0"
+        android:text="ยินดีต้อนรับเข้าสู่ FIT FOR ME"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
